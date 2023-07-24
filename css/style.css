@@ -1,0 +1,314 @@
+@import url(https://fonts.google.com/specimen/Poppins);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+    background-color:  hsl(0, 0%, 98%);
+}
+main{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left:auto;
+    margin-right: auto;
+    min-height: 100vh;
+}
+.four-card{
+    margin: 0 auto;
+}
+
+.four-feature{
+
+}
+.four-feature{
+    margin-top: 70px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.four-feature h1{
+    font-size: 25px;
+    font-weight: 300;
+    color:  hsl(0, 0%, 26%);
+}
+.four-feature h2{
+    font-size: 24px;
+    margin-top: 10px;
+    font-weight: 300;
+    color:  hsl(0, 0%, 26%);
+    margin-bottom: 10px;
+}
+.four-feature p{
+    width: 100%;
+    max-width: 555px;
+    font-size: 15px;
+    margin: 0 auto;
+    font-weight: 300;
+    text-align: center;
+    color:  hsl(0, 0%, 26%);
+}
+
+.four-content {
+    margin-top: 70px;
+}
+
+
+.four-content .title{
+    background-color: var(--whiteColor);
+    padding: 29px 25px;
+    width: 100%;
+    max-width: 325px;
+    margin: 0 auto 25px auto;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    box-shadow: 0px 5px 10px 0px rgba(261,226,238,.75);
+}
+.four-content .title:nth-last-of-type(1){
+    border-top: 3px solid hsl(0, 78%, 62%);
+}
+.four-content .title:nth-last-of-type(2){
+    border-top: 3px solid hsl(180, 62%, 55%) ;
+}
+.four-content .title:nth-last-child(3){
+     border-top: 3px solid hsl(34, 97%, 64%) ;
+}
+.four-content .title:nth-last-child(4){
+     border-top: 3px solid hsl(212, 86%, 64%);
+}
+.title h3{
+    font-size: 18px;
+    color: hsl(0, 0%, 26%);
+    font-weight: 300;
+  
+}
+.title p{
+    font-size: 13px;
+    padding-top: 11px;
+    color: hsl(0, 0%, 26%);
+    margin: 12px 0 36px 0;
+    letter-spacing: 1.5;
+    line-height: 1.8;
+}
+.title img{
+display: flex;
+margin-left: auto;
+}
+
+@media (min-width:768px){
+    .four-content {
+        display: grid;
+        grid-template-columns: repeat(2, 352px);
+        column-gap: 25px;
+        justify-content: center;
+    }
+}
+@media (min-width:1200px){
+    .four-content {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        gap: 0;
+    }
+    .four-content{
+        margin-left: 25px;
+        margin-right: 0;
+    }
+    .title.down{
+        transform: translateY(50%);
+    }
+
+}
+@media (min-width:1353px){
+    .four-content {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        gap: 0;
+    }
+    .four-content{
+        margin-left: 25px;
+        margin-right: 0;
+    }
+    .four-feature h1{
+       font-weight: 400;
+       font-size: 30px;
+    }
+    .four-feature h2{
+        font-weight: 400;
+        font-size: 28px;
+    }
+    .four-feature p{
+        font-size: 16px;
+        line-height: 29px;
+    }
+    .four-content .title {
+        margin: 121px auto 25px auto;
+    }
+    .title.down{
+        transform: translateY(50%);
+        margin-top: -10%;
+    }
+    .title h3{
+        font-size: 23px;
+      
+    }
+    .title p{
+        font-size: 14px;
+        padding-top: 8px;
+        letter-spacing: 1.5;
+        line-height: 1.8;
+    }
+   
+}
+
+@media (min-width:1367px){
+    .four-content {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        gap: 0;
+    }
+    
+.four-content .title{
+    padding: 29px 25px;
+    width: 100%;
+    max-width: 325px;
+    margin: 8% auto 25px auto;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    box-shadow: 0px 5px 10px 0px rgba(261,226,238,.75);
+}
+.title.down.up{
+    padding: 29px 25px;
+    width: 100%;
+    max-width: 325px;
+    margin:-17% 37% 26px auto;
+}
+    .four-content{
+        margin-left: 25px;
+        margin-right: 0;
+    }
+    .title{
+        margin-left: 20px ;
+        margin-right: 20px;
+    }
+    .title.down{
+        transform: translateY(-46%);
+    }
+}
+
+@media (min-width:768px){
+    .four-content {
+        display: grid;
+        grid-template-columns: repeat(2, 352px);
+        column-gap: 25px;
+        justify-content: center;
+    }
+}
+@media (min-width:1200px){
+    .four-content {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        gap: 0;
+    }
+    .four-content{
+        margin-left: 25px;
+        margin-right: 0;
+    }
+    .title.down{
+        transform: translateY(50%);
+    }
+
+}
+@media (min-width:1353px){
+    .four-content {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        gap: 0;
+    }
+    .four-content{
+        margin-left: 25px;
+        margin-right: 0;
+    }
+    .four-feature h1{
+       font-weight: 400;
+       font-size: 30px;
+    }
+    .four-feature h2{
+        font-weight: 400;
+        font-size: 28px;
+    }
+    .four-feature p{
+        font-size: 16px;
+        line-height: 29px;
+    }
+    .four-content .title {
+        margin: 121px auto 25px auto;
+    }
+    .title.down{
+        transform: translateY(50%);
+        margin-top: -10%;
+    }
+    .title h3{
+        font-size: 23px;
+      
+    }
+    .title p{
+        font-size: 14px;
+        padding-top: 8px;
+        letter-spacing: 1.5;
+        line-height: 1.8;
+    }
+   
+}
+
+@media (min-width:1400px){
+    .four-content {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        gap: 0;
+    }
+    
+.four-content .title{
+    padding: 29px 25px;
+    width: 100%;
+    max-width: 325px;
+    margin: 8% auto 25px auto;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    box-shadow: 0px 5px 10px 0px rgba(261,226,238,.75);
+}
+.title.down.up{
+    padding: 29px 25px;
+    width: 100%;
+    max-width: 325px;
+    margin: 2% 39% 26px auto;
+}
+    .four-content{
+        margin-left: 25px;
+        margin-right: 0;
+    }
+    .title{
+        margin-left: 20px ;
+        margin-right: 20px;
+    }
+    .title.down{
+        transform: translateY(-46%);
+    }
+}
